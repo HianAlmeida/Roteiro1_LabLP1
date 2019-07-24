@@ -12,6 +12,7 @@ class Invoice{
 
     public:
         Invoice(int numero, string descricao, int quantidade, double preco);
+        Invoice();
         int getNumeroItem();
         string getDescricao();
         int getQuantidade();
