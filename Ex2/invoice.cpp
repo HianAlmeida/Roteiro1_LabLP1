@@ -6,6 +6,12 @@ Invoice::Invoice(int numero, string descricao, int quantidade, double preco){
     setQuantidade(quantidade);
     setPreco(preco);
 }
+Invoice::Invoice(){
+    setNumeroItem(0);
+    setDescricao("");
+    setQuantidade(0);
+    setPreco(0);
+}
 int Invoice::getNumeroItem(){
     return numeroItem;
 }
